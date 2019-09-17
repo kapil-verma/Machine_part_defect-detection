@@ -1,4 +1,17 @@
+# coding: utf-8
+
+import pandas as pd
+from PIL import Image #pillow
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def pre_processing(image_path):
+    """
+     function performs minor processing of rotation, blurring, resizing and grayscale conversion and returns tuple containing 
+     resized gray, blurred and original images
+    """
+    import cv2 as cv #openCV
+    import numpy as np
     #Reading the image with opencv
     image=cv.imread(image_path)
     image = np.array(image, dtype=np.uint8)
@@ -21,11 +34,13 @@ def pre_processing(image_path):
     return gray, blur, image
 
 def make_classes(y_pred):
+    """
+    function takes in the prediction array from the model and gives classes of "Defective" and "Healthy" to the results
+    along with the probability associated with our prediction in form of a tuple.
+    """
     for i in y_pred:
         if i[0] > 0.5:
-            i[0]=1
-            i[1]=0
+            return "Healthy", i[0]
         elif i[0] <= 0.5:
-            i[1]=1
-            i[0]=0
-    return y_pred
+            return "Defective", i[0]
+
