@@ -61,7 +61,7 @@ def pred(test_image_path):
             loaded_model = model_from_json(loaded_model_json)
             #print(loaded_model.summary())
             #load weights into new model
-            loaded_model.load_weights("MobileNet_model/MobileNet_model_wieghts.h5")
+            loaded_model.load_weights("MobileNet_model_wieghts.h5")
             sgd = optimizers.SGD(lr=0.01, clipvalue=0.5)
             loaded_model.compile(loss='binary_crossentropy',
                           optimizer=sgd,
