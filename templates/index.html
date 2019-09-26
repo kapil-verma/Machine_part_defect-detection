@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="assets/code.js"></script>
+    <title>Heading</title>
+  </head>
+  <body>
+    <br>
+    <a href="index.html"><img class="logo" src="assets/final_v1.png" alt=""></a>
+    <br>
+    <div class="container main">
+  <div class="jumbotron" id="holder">
+    <h2 class='main_heading'> Automated Machine Part Defect Detection Model</h2>
+    <h3>Upload your machine part image here</h3>
+      <p><small><em>Model is trained over a specific automobile part called Fender Apron, make sure you upload images of such part only for reliable results. </em></small></p>
+    <br>
+    <div class="instructions">
+      <h2>Instructions: </h2>
+      <p>1. A new page will appear after uploading & clicking submit.</p>
+      <p>2. You will get a dictionary of classification results.</p>
+    </div>
+    <br>
+    <br>
+    <form class="form-horizontal" method="POST" action="/predict" enctype="multipart/form-data">
+        <input type="file" name="file">
+                <br>
+        <input type="submit">
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <div class="footer-copyright text-center py-3">
+    <div class="bottom">
+      <p><a href="#">Kapil Verma | Defective Image Classification</a></p>
+    </div>
+  </div>
+
+</footer>
+<!-- Footer -->
+
+
+  </body>
+</html>
