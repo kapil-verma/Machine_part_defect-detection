@@ -1,5 +1,5 @@
 # Machine part defect detection application
-:fire: *Live Demo available at http://kapilve.pythonanywhere.com/*<br>
+:star2: *Live Demo available at http://kapilve.pythonanywhere.com/*<br>
 Classification of a specific automotive part called **Fender Apron** (shown below) as defective and non-defective using Transfer Learning with f-1 score of 1.00 <br>
 #### Contents
 * `functions.py` contains functions for preprocessing of images and making classes<br>
