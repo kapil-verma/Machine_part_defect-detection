@@ -7,7 +7,9 @@ opencv-python==4.1.0.25
 numpy==1.17.2
 Pillow==6.2.1
 pandas==0.23.4
+pyopenssl==18.0.0
 matplotlib==3.1.1
 seaborn==0.8.1
 scikit-learn==0.20.3 
 scikit-image==0.15.0
+
