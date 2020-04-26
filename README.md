@@ -14,3 +14,4 @@ Classification of a specific automotive part called **Fender Apron** (shown belo
 ### Dataset
 The data is already labelled having a total of 250 images with 139 images as healthy machine parts and rest 111 as defective parts. Images given in the dataset were captured from different angles and scales. Training and Test datasets were prepared by randomly selecting a total of 25 images (i.e 10%) in which 10 were defective and 15 were healthy parts. Training/validation split used is 90/10.<br>
 [Dataset Link](https://drive.google.com/file/d/1k57jP_oy4c9VDZmlgqCvfErzVTzPeA_M/view?usp=sharing)
+> You will have to segregate them into test and train datasets yourself. 
