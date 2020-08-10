@@ -16,4 +16,4 @@ The data is already labelled having a total of 250 images with 139 images as hea
 [Dataset Link](https://drive.google.com/file/d/1k57jP_oy4c9VDZmlgqCvfErzVTzPeA_M/view?usp=sharing)
 > You will have to segregate them into test and train datasets yourself. To follow the notebook, you should know that I have put these random 25 test images in a new "Test" folder and renamed them as 1.jpg, 2.jpg ..... 25.jpg and put the rest other into "Train" folder with two separate "Train\Defective" and "Train\Healthy" sub-directories.
 
-> * To read about approach and architecture used, go to [README](Machine_part_defect-detection/Results/README.md) at *Results* folder.
+> * To read about approach and architecture used, go to [README](Results/) at *Results* folder.
