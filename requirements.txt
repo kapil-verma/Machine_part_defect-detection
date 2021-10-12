@@ -3,7 +3,7 @@ Flask==1.1.1
 Flask-Cors==3.0.9
 Keras==2.0.8
 Keras-Applications==1.0.7
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 numpy==1.17.2
 Pillow>=6.2.2
 pandas==0.23.4
