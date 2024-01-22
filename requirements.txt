@@ -1,5 +1,5 @@
 #python version 3.6.8
-Flask==1.1.1
+Flask==2.3.2
 Flask-Cors==3.0.9
 Keras==2.0.8
 Keras-Applications==1.0.7
